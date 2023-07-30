@@ -1,0 +1,52 @@
+h1 {
+  font-size: 63px;
+  color: azure;
+}
+
+
+h2 {
+  font-size: 54px;
+  color: #303030;
+  font-weight: 600;
+}
+
+.img {
+  border: 4px solid rgb(221, 203, 103);
+  mar
+}
+
+/* top and bot 10px - left and right 0px */
+.title-img {
+  padding: 10px 0;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.iconCustom {
+  font-size: 30px;
+}
+
+.focus-text {
+  font-size: 17px;
+}
+
+/* TODO ajustar a cor do texto selecionado */
+.focus-text:focus {
+  color: rgb(226, 209, 114);
+  font-weight: 600;
+}
+
+.description-img {
+  color: rgb(5, 5, 5);
+}
+
+.carousel-caption h5 {
+  font-size: 70px;
+  color: rgb(228, 197, 26);
+  text-shadow: 2px 2px 2px black;
+}
